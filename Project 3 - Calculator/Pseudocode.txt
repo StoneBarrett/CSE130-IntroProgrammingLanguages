@@ -1,0 +1,129 @@
+Calculator Design
+
+			Stone's Calculator App
+
+		Welcome! Please select an operation.
+
+		Menu:
+
+		[1] Addition
+		[2] Subtraction
+		[3] Multiplication
+		[4] Division
+		[5] Modulus (integers only)
+		[6] Prime test (integers only)
+		[7] Exit
+
+
+2
+
+
+		Enter the first number:
+
+5
+
+		Enter the second number:
+
+3
+
+		5 - 3 = 2
+
+
+		Please select an operation.
+
+		Menu:
+
+		[1] Addition
+		[2] Subtraction
+		[3] Multiplication
+		[4] Division
+		[5] Modulus (integers only)
+		[6] Prime test (integers only)
+		[7] Exit
+
+
+
+
+Pseudocode:
+
+
+print opening lines
+
+operation = 0
+
+print menu
+
+firVal = 0
+
+secVal = 0
+
+switch operation
+
+	case 1: 
+		print Enter the first number
+		scan firVal
+		print Enter the second number
+		scan secVal
+		print firVal + secVal = firVal + secVal
+		break
+	
+	case 2: 
+		print Enter the first number
+		scan firVal
+		print Enter the second number
+		scan secVal
+		print firVal - secVal = firVal - secVal
+		break
+
+	case 3: 
+		print Enter the first number
+		scan firVal
+		print Enter the second number
+		scan secVal
+		print firVal * secVal = firVal * secVal
+		break
+
+	case 4: 
+		print Enter the first number
+		scan firVal
+		print Enter the second number
+		scan secVal
+		print firVal / secVal = firVal / secVal
+		break
+
+	case 5: 
+		print Enter the first number
+		scan firVal
+		print Enter the second number
+		scan secVal
+		print firVal % secVal = firVal % secVal
+		break
+	
+	case 6:
+		
+	case 7: 
+		print See you next time!
+		close
+
+end switch
+
+
+
+
+
+Notes/Ideas:
+
+\rprint blank for reset to prev line and overwrite
+\rprint again to place new text
+
+loop to check for exit or not, reset to menu after calculation
+
+loop to check for primalty 
+
+
+		
+		
+
+
+
+
